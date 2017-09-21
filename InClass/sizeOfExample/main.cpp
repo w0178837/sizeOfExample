@@ -24,7 +24,7 @@ int main() {
         cout<<"row " << row << *(pBoolean + row) << endl ;
         for (int col = 0; col < 3;col++)
         {
-            cout << "*(pBoolean + " <<  i << ") " << *(pBoolean )[row]<< endl;
+            cout << "*(pBoolean + " <<  i << ") " << *(pBoolean[row] + col)<< endl;
             i++;
         }
     }
