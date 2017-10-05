@@ -3,5 +3,5 @@ project(BirthdayCalc)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp DayOfYear.cpp DayOfYear.h)
 add_executable(BirthdayCalc ${SOURCE_FILES})

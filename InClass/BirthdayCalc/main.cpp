@@ -1,4 +1,5 @@
 #include <iostream>
+#include "DayOfYear.h"
 
 using namespace std;
 
@@ -28,7 +29,12 @@ int main() {
     } else{
         cout << "Sorry, today is not your birthday..." << endl;
     }
-     cin >> userInput;
+    cout << "Today is: ";
+    today.output();
+    cout << endl << "Your birthday is: ";
+    birthday.output();
+
+    cin >> userInput;
 
     return 0;
 }
