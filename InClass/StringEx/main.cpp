@@ -24,5 +24,7 @@ int main() {
     name = someOtherName; // overloaded assignment
     cout << "Name: " << name << endl;
 
+    // the big 3 : The Copy Constructor, The Assignment Operator, The Custom Destructor
+
     return 0;
 }
